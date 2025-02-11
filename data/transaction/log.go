@@ -2,7 +2,7 @@
 package transaction
 
 import (
-	"github.com/TerraDharitri/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data"
 )
 
 // GetLogEvents returns the interface for the underlying events of the log structure

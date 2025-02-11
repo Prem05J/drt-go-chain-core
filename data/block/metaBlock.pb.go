@@ -6,7 +6,7 @@ package block
 import (
 	bytes "bytes"
 	fmt "fmt"
-	github_com_TerraDharitri_drt_go_chain_core_data "github.com/TerraDharitri/drt-go-chain-core/data"
+	github_com_TerraDharitri_drt_go_chain_core_data "github.com/Prem05J/drt-go-chain-core/data"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -77,7 +77,7 @@ type PeerData struct {
 	PublicKey   []byte        `protobuf:"bytes,2,opt,name=PublicKey,proto3" json:"publicKey,omitempty"`
 	Action      PeerAction    `protobuf:"varint,3,opt,name=Action,proto3,enum=proto.PeerAction" json:"action"`
 	TimeStamp   uint64        `protobuf:"varint,4,opt,name=TimeStamp,proto3" json:"timeStamp,omitempty"`
-	ValueChange *math_big.Int `protobuf:"bytes,5,opt,name=ValueChange,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"valueChange,omitempty"`
+	ValueChange *math_big.Int `protobuf:"bytes,5,opt,name=ValueChange,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"valueChange,omitempty"`
 }
 
 func (m *PeerData) Reset()      { *m = PeerData{} }
@@ -153,8 +153,8 @@ type ShardData struct {
 	Round                 uint64            `protobuf:"varint,8,opt,name=Round,proto3" json:"round"`
 	PrevHash              []byte            `protobuf:"bytes,9,opt,name=PrevHash,proto3" json:"prevHash,omitempty"`
 	Nonce                 uint64            `protobuf:"varint,10,opt,name=Nonce,proto3" json:"nonce"`
-	AccumulatedFees       *math_big.Int     `protobuf:"bytes,12,opt,name=AccumulatedFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFees,omitempty"`
-	DeveloperFees         *math_big.Int     `protobuf:"bytes,14,opt,name=DeveloperFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"developerFees,omitempty"`
+	AccumulatedFees       *math_big.Int     `protobuf:"bytes,12,opt,name=AccumulatedFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFees,omitempty"`
+	DeveloperFees         *math_big.Int     `protobuf:"bytes,14,opt,name=DeveloperFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"developerFees,omitempty"`
 	NumPendingMiniBlocks  uint32            `protobuf:"varint,11,opt,name=NumPendingMiniBlocks,proto3" json:"numPendingMiniBlocks"`
 	LastIncludedMetaNonce uint64            `protobuf:"varint,13,opt,name=LastIncludedMetaNonce,proto3" json:"lastIncludedMetaNonce"`
 	ShardID               uint32            `protobuf:"varint,1,opt,name=ShardID,proto3" json:"shardID"`
@@ -401,12 +401,12 @@ func (m *EpochStartShardData) GetPendingMiniBlockHeaders() []MiniBlockHeader {
 
 // Economics holds the block information for total supply and rewards
 type Economics struct {
-	TotalSupply                      *math_big.Int `protobuf:"bytes,1,opt,name=TotalSupply,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"totalSupply,omitempty"`
-	TotalToDistribute                *math_big.Int `protobuf:"bytes,2,opt,name=TotalToDistribute,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"totalToDistribute,omitempty"`
-	TotalNewlyMinted                 *math_big.Int `protobuf:"bytes,3,opt,name=TotalNewlyMinted,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"totalNewlyMinted,omitempty"`
-	RewardsPerBlock                  *math_big.Int `protobuf:"bytes,4,opt,name=RewardsPerBlock,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"rewardsPerBlock,omitempty"`
-	RewardsForProtocolSustainability *math_big.Int `protobuf:"bytes,5,opt,name=RewardsForProtocolSustainability,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"rewardsForProtocolSustainability,omitempty"`
-	NodePrice                        *math_big.Int `protobuf:"bytes,6,opt,name=NodePrice,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"nodePrice,omitempty"`
+	TotalSupply                      *math_big.Int `protobuf:"bytes,1,opt,name=TotalSupply,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"totalSupply,omitempty"`
+	TotalToDistribute                *math_big.Int `protobuf:"bytes,2,opt,name=TotalToDistribute,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"totalToDistribute,omitempty"`
+	TotalNewlyMinted                 *math_big.Int `protobuf:"bytes,3,opt,name=TotalNewlyMinted,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"totalNewlyMinted,omitempty"`
+	RewardsPerBlock                  *math_big.Int `protobuf:"bytes,4,opt,name=RewardsPerBlock,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"rewardsPerBlock,omitempty"`
+	RewardsForProtocolSustainability *math_big.Int `protobuf:"bytes,5,opt,name=RewardsForProtocolSustainability,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"rewardsForProtocolSustainability,omitempty"`
+	NodePrice                        *math_big.Int `protobuf:"bytes,6,opt,name=NodePrice,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"nodePrice,omitempty"`
 	PrevEpochStartRound              uint64        `protobuf:"varint,7,opt,name=PrevEpochStartRound,proto3" json:"prevEpochStartRound"`
 	PrevEpochStartHash               []byte        `protobuf:"bytes,8,opt,name=PrevEpochStartHash,proto3" json:"prevEpochStartHash,omitempty"`
 }
@@ -564,10 +564,10 @@ type MetaBlock struct {
 	EpochStart             EpochStart        `protobuf:"bytes,18,opt,name=EpochStart,proto3" json:"epochStart,omitempty"`
 	ChainID                []byte            `protobuf:"bytes,19,opt,name=ChainID,proto3" json:"chainID,omitempty"`
 	SoftwareVersion        []byte            `protobuf:"bytes,20,opt,name=SoftwareVersion,proto3" json:"softwareVersion,omitempty"`
-	AccumulatedFees        *math_big.Int     `protobuf:"bytes,21,opt,name=AccumulatedFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFees,omitempty"`
-	AccumulatedFeesInEpoch *math_big.Int     `protobuf:"bytes,22,opt,name=AccumulatedFeesInEpoch,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFeesInEpoch,omitempty"`
-	DeveloperFees          *math_big.Int     `protobuf:"bytes,23,opt,name=DeveloperFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"developerFees,omitempty"`
-	DevFeesInEpoch         *math_big.Int     `protobuf:"bytes,24,opt,name=DevFeesInEpoch,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"devFeesInEpoch,omitempty"`
+	AccumulatedFees        *math_big.Int     `protobuf:"bytes,21,opt,name=AccumulatedFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFees,omitempty"`
+	AccumulatedFeesInEpoch *math_big.Int     `protobuf:"bytes,22,opt,name=AccumulatedFeesInEpoch,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFeesInEpoch,omitempty"`
+	DeveloperFees          *math_big.Int     `protobuf:"bytes,23,opt,name=DeveloperFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"developerFees,omitempty"`
+	DevFeesInEpoch         *math_big.Int     `protobuf:"bytes,24,opt,name=DevFeesInEpoch,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"devFeesInEpoch,omitempty"`
 	TxCount                uint32            `protobuf:"varint,25,opt,name=TxCount,proto3" json:"txCount"`
 	Reserved               []byte            `protobuf:"bytes,26,opt,name=Reserved,proto3" json:"reserved,omitempty"`
 }

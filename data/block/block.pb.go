@@ -6,7 +6,7 @@ package block
 import (
 	bytes "bytes"
 	fmt "fmt"
-	github_com_TerraDharitri_drt_go_chain_core_data "github.com/TerraDharitri/drt-go-chain-core/data"
+	github_com_TerraDharitri_drt_go_chain_core_data "github.com/Prem05J/drt-go-chain-core/data"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -336,8 +336,8 @@ type Header struct {
 	ReceiptsHash       []byte            `protobuf:"bytes,19,opt,name=ReceiptsHash,proto3" json:"receiptsHash,omitempty"`
 	ChainID            []byte            `protobuf:"bytes,20,opt,name=ChainID,proto3" json:"chainID,omitempty"`
 	SoftwareVersion    []byte            `protobuf:"bytes,21,opt,name=SoftwareVersion,proto3" json:"softwareVersion,omitempty"`
-	AccumulatedFees    *math_big.Int     `protobuf:"bytes,22,opt,name=AccumulatedFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFees,omitempty"`
-	DeveloperFees      *math_big.Int     `protobuf:"bytes,23,opt,name=DeveloperFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"developerFees,omitempty"`
+	AccumulatedFees    *math_big.Int     `protobuf:"bytes,22,opt,name=AccumulatedFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"accumulatedFees,omitempty"`
+	DeveloperFees      *math_big.Int     `protobuf:"bytes,23,opt,name=DeveloperFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"developerFees,omitempty"`
 	Reserved           []byte            `protobuf:"bytes,24,opt,name=Reserved,proto3" json:"reserved,omitempty"`
 }
 

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing"
-	"github.com/TerraDharitri/drt-go-chain-core/marshal"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/hashing"
+	"github.com/Prem05J/drt-go-chain-core/marshal"
 )
 
 // ConvertBytes converts the input bytes in a readable string using multipliers (k, M, G)

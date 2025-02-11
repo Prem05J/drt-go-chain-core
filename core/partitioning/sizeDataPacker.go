@@ -1,9 +1,9 @@
 package partitioning
 
 import (
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/data/batch"
-	"github.com/TerraDharitri/drt-go-chain-core/marshal"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/data/batch"
+	"github.com/Prem05J/drt-go-chain-core/marshal"
 )
 
 const minimumMaxPacketSizeInBytes = 1

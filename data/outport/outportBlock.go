@@ -1,10 +1,10 @@
-//go:generate protoc -I=. -I=$GOPATH/src/github.com/TerraDharitri/drt-go-chain-core/data/block -I=$GOPATH/src -I=$GOPATH/src/github.com/TerraDharitri/protobuf/protobuf --gogoslick_out=$GOPATH/src outportBlock.proto
+//go:generate protoc -I=. -I=$GOPATH/src/github.com/Prem05J/drt-go-chain-core/data/block -I=$GOPATH/src -I=$GOPATH/src/github.com/TerraDharitri/protobuf/protobuf --gogoslick_out=$GOPATH/src outportBlock.proto
 
 package outport
 
 import (
-	"github.com/TerraDharitri/drt-go-chain-core/data"
-	"github.com/TerraDharitri/drt-go-chain-core/data/block"
+	"github.com/Prem05J/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data/block"
 )
 
 // OutportBlockWithHeader will extend the OutportBlock structure

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

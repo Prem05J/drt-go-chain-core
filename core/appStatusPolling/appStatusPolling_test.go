@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/core/appStatusPolling"
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core/appStatusPolling"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
 	"github.com/stretchr/testify/assert"
 )
 

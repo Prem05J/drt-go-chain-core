@@ -4,9 +4,9 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
-	"github.com/TerraDharitri/drt-go-chain-core/core/partitioning"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/core/partitioning"
 	"github.com/stretchr/testify/assert"
 )
 

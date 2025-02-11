@@ -1,8 +1,8 @@
 package versioning
 
 import (
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/data/transaction"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/data/transaction"
 )
 
 // There are different options based on the tx version. If version is the initial version of transaction no options can be used.

@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core"
 )
 
 // hexPubkeyConverter encodes or decodes provided public key as/from hex

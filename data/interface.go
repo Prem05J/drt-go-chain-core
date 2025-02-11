@@ -3,7 +3,7 @@ package data
 import (
 	"math/big"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data/headerVersionData"
+	"github.com/Prem05J/drt-go-chain-core/data/headerVersionData"
 )
 
 // TriggerRegistryHandler defines getters and setters for the trigger registry
@@ -363,7 +363,6 @@ type ValidatorInfoHandler interface {
 	String() string
 	IsInterfaceNil() bool
 }
-
 
 // ShardValidatorInfoHandler is used to store multiple validatorInfo properties required in shards
 type ShardValidatorInfoHandler interface {

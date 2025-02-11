@@ -3,7 +3,7 @@ package blake2b
 import (
 	"hash"
 
-	"github.com/TerraDharitri/drt-go-chain-core/hashing"
+	"github.com/Prem05J/drt-go-chain-core/hashing"
 	blake2bLib "golang.org/x/crypto/blake2b"
 )
 

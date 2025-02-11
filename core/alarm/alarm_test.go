@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/alarm"
-	"github.com/TerraDharitri/drt-go-chain-core/core/atomic"
+	"github.com/Prem05J/drt-go-chain-core/core/alarm"
+	"github.com/Prem05J/drt-go-chain-core/core/atomic"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package sha256
 import (
 	sha256Lib "crypto/sha256"
 
-	"github.com/TerraDharitri/drt-go-chain-core/hashing"
+	"github.com/Prem05J/drt-go-chain-core/hashing"
 )
 
 var _ hashing.Hasher = (*sha256)(nil)

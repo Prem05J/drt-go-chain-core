@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/core/accumulator"
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core/accumulator"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

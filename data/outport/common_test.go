@@ -3,10 +3,10 @@ package outport
 import (
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
-	"github.com/TerraDharitri/drt-go-chain-core/data"
-	"github.com/TerraDharitri/drt-go-chain-core/data/block"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data/block"
 	"github.com/stretchr/testify/require"
 )
 

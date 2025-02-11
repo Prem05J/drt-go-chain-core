@@ -6,10 +6,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
-	"github.com/TerraDharitri/drt-go-chain-core/data"
-	"github.com/TerraDharitri/drt-go-chain-core/data/outport"
-	"github.com/TerraDharitri/drt-go-chain-core/data/transaction"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data/outport"
+	"github.com/Prem05J/drt-go-chain-core/data/transaction"
 	"github.com/stretchr/testify/assert"
 )
 

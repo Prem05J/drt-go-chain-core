@@ -1,6 +1,6 @@
 package api
 
-import "github.com/TerraDharitri/drt-go-chain-core/core"
+import "github.com/Prem05J/drt-go-chain-core/core"
 
 // AccountQueryOptions holds options for account queries
 type AccountQueryOptions struct {

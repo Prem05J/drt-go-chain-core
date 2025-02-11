@@ -1,6 +1,6 @@
 package block
 
-import "github.com/TerraDharitri/drt-go-chain-core/data"
+import "github.com/Prem05J/drt-go-chain-core/data"
 
 // GetTypeInt32 gets the miniBlock type
 func (m *MiniBlockHeader) GetTypeInt32() int32 {

@@ -4,7 +4,7 @@ package smartContractResult
 import (
 	"math/big"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data"
 )
 
 var _ = data.TransactionHandler(&SmartContractResult{})

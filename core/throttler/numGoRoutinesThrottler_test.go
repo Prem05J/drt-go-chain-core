@@ -3,9 +3,9 @@ package throttler_test
 import (
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
-	"github.com/TerraDharitri/drt-go-chain-core/core/throttler"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/core/throttler"
 	"github.com/stretchr/testify/assert"
 )
 

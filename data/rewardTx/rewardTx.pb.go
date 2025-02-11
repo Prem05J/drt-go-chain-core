@@ -6,7 +6,7 @@ package rewardTx
 import (
 	bytes "bytes"
 	fmt "fmt"
-	github_com_TerraDharitri_drt_go_chain_core_data "github.com/TerraDharitri/drt-go-chain-core/data"
+	github_com_TerraDharitri_drt_go_chain_core_data "github.com/Prem05J/drt-go-chain-core/data"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -31,7 +31,7 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 // RewardTx holds the data for a reward transaction
 type RewardTx struct {
 	Round   uint64        `protobuf:"varint,1,opt,name=Round,proto3" json:"round"`
-	Value   *math_big.Int `protobuf:"bytes,3,opt,name=Value,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"value"`
+	Value   *math_big.Int `protobuf:"bytes,3,opt,name=Value,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"value"`
 	RcvAddr []byte        `protobuf:"bytes,4,opt,name=RcvAddr,proto3" json:"receiver"`
 	Epoch   uint32        `protobuf:"varint,2,opt,name=Epoch,proto3" json:"epoch"`
 }

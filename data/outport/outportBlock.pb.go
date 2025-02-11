@@ -7,13 +7,13 @@ import (
 	bytes "bytes"
 	encoding_binary "encoding/binary"
 	fmt "fmt"
-	github_com_TerraDharitri_drt_go_chain_core_data "github.com/TerraDharitri/drt-go-chain-core/data"
-	alteredAccount "github.com/TerraDharitri/drt-go-chain-core/data/alteredAccount"
-	block "github.com/TerraDharitri/drt-go-chain-core/data/block"
-	receipt "github.com/TerraDharitri/drt-go-chain-core/data/receipt"
-	rewardTx "github.com/TerraDharitri/drt-go-chain-core/data/rewardTx"
-	smartContractResult "github.com/TerraDharitri/drt-go-chain-core/data/smartContractResult"
-	transaction "github.com/TerraDharitri/drt-go-chain-core/data/transaction"
+	github_com_TerraDharitri_drt_go_chain_core_data "github.com/Prem05J/drt-go-chain-core/data"
+	alteredAccount "github.com/Prem05J/drt-go-chain-core/data/alteredAccount"
+	block "github.com/Prem05J/drt-go-chain-core/data/block"
+	receipt "github.com/Prem05J/drt-go-chain-core/data/receipt"
+	rewardTx "github.com/Prem05J/drt-go-chain-core/data/rewardTx"
+	smartContractResult "github.com/Prem05J/drt-go-chain-core/data/smartContractResult"
+	transaction "github.com/Prem05J/drt-go-chain-core/data/transaction"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	github_com_gogo_protobuf_sortkeys "github.com/gogo/protobuf/sortkeys"
@@ -323,8 +323,8 @@ func (m *TransactionPool) GetScheduledExecutedInvalidTxsHashesPrevBlock() []stri
 
 type FeeInfo struct {
 	GasUsed        uint64        `protobuf:"varint,1,opt,name=GasUsed,proto3" json:"gasUsed"`
-	Fee            *math_big.Int `protobuf:"bytes,2,opt,name=Fee,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"fee,omitempty"`
-	InitialPaidFee *math_big.Int `protobuf:"bytes,3,opt,name=InitialPaidFee,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"initialPaidFee,omitempty"`
+	Fee            *math_big.Int `protobuf:"bytes,2,opt,name=Fee,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"fee,omitempty"`
+	InitialPaidFee *math_big.Int `protobuf:"bytes,3,opt,name=InitialPaidFee,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"initialPaidFee,omitempty"`
 }
 
 func (m *FeeInfo) Reset()      { *m = FeeInfo{} }

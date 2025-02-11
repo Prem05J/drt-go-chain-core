@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
-	"github.com/TerraDharitri/drt-go-chain-core/data/batch"
+	"github.com/Prem05J/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/data/batch"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,10 +3,10 @@ package block
 import (
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
-	"github.com/TerraDharitri/drt-go-chain-core/data"
-	"github.com/TerraDharitri/drt-go-chain-core/data/mock"
-	"github.com/TerraDharitri/drt-go-chain-core/marshal/factory"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data/mock"
+	"github.com/Prem05J/drt-go-chain-core/marshal/factory"
 	"github.com/stretchr/testify/require"
 )
 

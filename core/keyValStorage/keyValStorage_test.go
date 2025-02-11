@@ -3,7 +3,7 @@ package keyValStorage_test
 import (
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/keyValStorage"
+	"github.com/Prem05J/drt-go-chain-core/core/keyValStorage"
 	"github.com/stretchr/testify/assert"
 )
 

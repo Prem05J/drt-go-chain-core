@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing"
+	"github.com/Prem05J/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/hashing"
 )
 
 // SortTransactionsBySenderAndNonceWithFrontRunningProtection - sorts the transactions by address and randomness source to protect from front running

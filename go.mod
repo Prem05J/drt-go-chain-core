@@ -1,4 +1,4 @@
-module github.com/TerraDharitri/drt-go-chain-core
+module github.com/Prem05J/drt-go-chain-core
 
 go 1.20
 

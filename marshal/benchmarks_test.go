@@ -6,9 +6,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data/block"
-	"github.com/TerraDharitri/drt-go-chain-core/data/transaction"
-	"github.com/TerraDharitri/drt-go-chain-core/marshal"
+	"github.com/Prem05J/drt-go-chain-core/data/block"
+	"github.com/Prem05J/drt-go-chain-core/data/transaction"
+	"github.com/Prem05J/drt-go-chain-core/marshal"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

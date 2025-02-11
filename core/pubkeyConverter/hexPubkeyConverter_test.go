@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
-	"github.com/TerraDharitri/drt-go-chain-core/core/pubkeyConverter"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/core/pubkeyConverter"
 	"github.com/stretchr/testify/assert"
 )
 

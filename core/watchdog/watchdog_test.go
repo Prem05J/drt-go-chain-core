@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
-	"github.com/TerraDharitri/drt-go-chain-core/core/mock"
-	"github.com/TerraDharitri/drt-go-chain-core/core/watchdog"
-	"github.com/TerraDharitri/drt-go-chain-core/data/endProcess"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/core/mock"
+	"github.com/Prem05J/drt-go-chain-core/core/watchdog"
+	"github.com/Prem05J/drt-go-chain-core/data/endProcess"
 	"github.com/stretchr/testify/assert"
 )
 

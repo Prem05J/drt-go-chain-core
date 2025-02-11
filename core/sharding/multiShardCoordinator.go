@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"math"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core"
+	"github.com/Prem05J/drt-go-chain-core/core"
 )
 
 // multiShardCoordinator struct defines the functionality for handling transaction dispatching to

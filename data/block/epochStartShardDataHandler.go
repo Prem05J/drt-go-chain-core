@@ -1,6 +1,6 @@
 package block
 
-import "github.com/TerraDharitri/drt-go-chain-core/data"
+import "github.com/Prem05J/drt-go-chain-core/data"
 
 // GetPendingMiniBlockHeaderHandlers returns the pending miniBlock header handlers
 func (essd *EpochStartShardData) GetPendingMiniBlockHeaderHandlers() []data.MiniBlockHeaderHandler {

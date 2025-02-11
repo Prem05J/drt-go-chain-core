@@ -4,11 +4,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/hashing"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing/blake2b"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing/fnv"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing/keccak"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing/sha256"
+	"github.com/Prem05J/drt-go-chain-core/hashing"
+	"github.com/Prem05J/drt-go-chain-core/hashing/blake2b"
+	"github.com/Prem05J/drt-go-chain-core/hashing/fnv"
+	"github.com/Prem05J/drt-go-chain-core/hashing/keccak"
+	"github.com/Prem05J/drt-go-chain-core/hashing/sha256"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

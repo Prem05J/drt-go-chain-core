@@ -3,7 +3,7 @@ package core
 import (
 	"fmt"
 
-	"github.com/TerraDharitri/drt-go-chain-core/core/check"
+	"github.com/Prem05J/drt-go-chain-core/core/check"
 )
 
 // EnableEpochFlag defines a flag specific to the enableEpochs.toml

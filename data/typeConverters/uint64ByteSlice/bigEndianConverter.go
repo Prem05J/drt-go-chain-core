@@ -3,7 +3,7 @@ package uint64ByteSlice
 import (
 	"encoding/binary"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data/typeConverters"
+	"github.com/Prem05J/drt-go-chain-core/data/typeConverters"
 )
 
 type bigEndianConverter struct {

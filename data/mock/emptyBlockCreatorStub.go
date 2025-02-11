@@ -1,6 +1,6 @@
 package mock
 
-import "github.com/TerraDharitri/drt-go-chain-core/data"
+import "github.com/Prem05J/drt-go-chain-core/data"
 
 // EmptyBlockCreatorStub -
 type EmptyBlockCreatorStub struct {

@@ -6,7 +6,7 @@ package block
 import (
 	bytes "bytes"
 	fmt "fmt"
-	github_com_TerraDharitri_drt_go_chain_core_data "github.com/TerraDharitri/drt-go-chain-core/data"
+	github_com_TerraDharitri_drt_go_chain_core_data "github.com/Prem05J/drt-go-chain-core/data"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 	io "io"
@@ -32,8 +32,8 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 type HeaderV2 struct {
 	Header                   *Header       `protobuf:"bytes,1,opt,name=Header,proto3" json:"header,omitempty"`
 	ScheduledRootHash        []byte        `protobuf:"bytes,2,opt,name=ScheduledRootHash,proto3" json:"scheduledRootHash,omitempty"`
-	ScheduledAccumulatedFees *math_big.Int `protobuf:"bytes,3,opt,name=ScheduledAccumulatedFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"scheduledAccumulatedFees,omitempty"`
-	ScheduledDeveloperFees   *math_big.Int `protobuf:"bytes,4,opt,name=ScheduledDeveloperFees,proto3,casttypewith=math/big.Int;github.com/TerraDharitri/drt-go-chain-core/data.BigIntCaster" json:"scheduledDeveloperFees,omitempty"`
+	ScheduledAccumulatedFees *math_big.Int `protobuf:"bytes,3,opt,name=ScheduledAccumulatedFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"scheduledAccumulatedFees,omitempty"`
+	ScheduledDeveloperFees   *math_big.Int `protobuf:"bytes,4,opt,name=ScheduledDeveloperFees,proto3,casttypewith=math/big.Int;github.com/Prem05J/drt-go-chain-core/data.BigIntCaster" json:"scheduledDeveloperFees,omitempty"`
 	ScheduledGasProvided     uint64        `protobuf:"varint,5,opt,name=ScheduledGasProvided,proto3" json:"scheduledGasProvided"`
 	ScheduledGasPenalized    uint64        `protobuf:"varint,6,opt,name=ScheduledGasPenalized,proto3" json:"scheduledGasPenalized"`
 	ScheduledGasRefunded     uint64        `protobuf:"varint,7,opt,name=ScheduledGasRefunded,proto3" json:"scheduledGasRefunded"`

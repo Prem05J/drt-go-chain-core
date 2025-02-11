@@ -5,7 +5,7 @@ package testSizeCheckUnmarshal
 import (
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/marshal"
+	"github.com/Prem05J/drt-go-chain-core/marshal"
 	"github.com/stretchr/testify/assert"
 )
 

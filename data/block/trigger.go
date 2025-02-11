@@ -1,7 +1,7 @@
 //go:generate protoc -I=. -I=$GOPATH/src -I=$GOPATH/src/github.com/TerraDharitri/protobuf/protobuf  --gogoslick_out=. trigger.proto
 package block
 
-import "github.com/TerraDharitri/drt-go-chain-core/data"
+import "github.com/Prem05J/drt-go-chain-core/data"
 
 // GetEpochStartHeaderHandler returns the epoch start headerHandler
 func (str *ShardTriggerRegistry) GetEpochStartHeaderHandler() data.HeaderHandler {

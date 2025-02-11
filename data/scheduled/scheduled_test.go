@@ -3,11 +3,11 @@ package scheduled_test
 import (
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data"
-	"github.com/TerraDharitri/drt-go-chain-core/data/block"
-	"github.com/TerraDharitri/drt-go-chain-core/data/scheduled"
-	"github.com/TerraDharitri/drt-go-chain-core/data/smartContractResult"
-	"github.com/TerraDharitri/drt-go-chain-core/data/transaction"
+	"github.com/Prem05J/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data/block"
+	"github.com/Prem05J/drt-go-chain-core/data/scheduled"
+	"github.com/Prem05J/drt-go-chain-core/data/smartContractResult"
+	"github.com/Prem05J/drt-go-chain-core/data/transaction"
 	"github.com/stretchr/testify/require"
 )
 

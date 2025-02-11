@@ -3,7 +3,7 @@ package fnv
 import (
 	fnvLib "hash/fnv"
 
-	"github.com/TerraDharitri/drt-go-chain-core/hashing"
+	"github.com/Prem05J/drt-go-chain-core/hashing"
 )
 
 var _ hashing.Hasher = (*fnv)(nil)

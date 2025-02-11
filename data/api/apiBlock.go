@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data/alteredAccount"
-	"github.com/TerraDharitri/drt-go-chain-core/data/transaction"
+	"github.com/Prem05J/drt-go-chain-core/data/alteredAccount"
+	"github.com/Prem05J/drt-go-chain-core/data/transaction"
 )
 
 // Block represents the structure for block that is returned by api routes

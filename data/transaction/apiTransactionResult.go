@@ -3,8 +3,8 @@ package transaction
 import (
 	"math/big"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data"
-	"github.com/TerraDharitri/drt-go-chain-core/data/vm"
+	"github.com/Prem05J/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data/vm"
 )
 
 // ApiTransactionResult is the data transfer object which will be returned on the get transaction by hash endpoint

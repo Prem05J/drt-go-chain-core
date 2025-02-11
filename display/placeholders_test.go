@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/display"
+	"github.com/Prem05J/drt-go-chain-core/display"
 	"github.com/stretchr/testify/assert"
 )
 

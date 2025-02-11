@@ -1,10 +1,10 @@
 package factory
 
 import (
-	"github.com/TerraDharitri/drt-go-chain-core/hashing"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing/blake2b"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing/keccak"
-	"github.com/TerraDharitri/drt-go-chain-core/hashing/sha256"
+	"github.com/Prem05J/drt-go-chain-core/hashing"
+	"github.com/Prem05J/drt-go-chain-core/hashing/blake2b"
+	"github.com/Prem05J/drt-go-chain-core/hashing/keccak"
+	"github.com/Prem05J/drt-go-chain-core/hashing/sha256"
 )
 
 // NewHasher will return a new instance of hasher based on the value stored in config

@@ -1,6 +1,6 @@
 package block
 
-import "github.com/TerraDharitri/drt-go-chain-core/data"
+import "github.com/Prem05J/drt-go-chain-core/data"
 
 // SetPubKey - setter for public key
 func (pc *PeerChange) SetPubKey(pubKey []byte) error {

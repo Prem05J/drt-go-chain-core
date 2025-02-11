@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/TerraDharitri/drt-go-chain-core/data"
+	"github.com/Prem05J/drt-go-chain-core/data"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
